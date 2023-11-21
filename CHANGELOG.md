@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Database schema tweak: set a default of `[]` on the tags column and ensure it's never null.
+
 ## [0.0.7] - 2023-11-20
 
 ### Changed
